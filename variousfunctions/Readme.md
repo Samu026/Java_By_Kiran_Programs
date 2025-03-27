@@ -1,0 +1,1 @@
+This program includes various functions such as Even-Odd Check, Palindrome Check, Prime Number Check, Reverse Number, Square Calculation, and Cube Calculation. These functions are implemented in separate classes and called in the main class using object creation.
