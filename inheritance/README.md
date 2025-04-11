@@ -1,0 +1,19 @@
+Basic Inheritance
+
+1. Create a class Animal with a method eat(). Inherit a class Dog that has a method bark(). Call both methods from the Dog class object.
+   (Animals.java, Dog.java, Main.java) using (Parameterize method with return type)
+
+2. Vehicle Example: Create a class Vehicle with a method start(). Inherit Car class with method drive(). Call both methods using a Car object.
+   (Car.java, VehicleDetails.java, Vehicles.java) using (Parameterize method with return type)
+
+3. Student and Marks: Create a class Student with fields name, rollNo. Inherit a class Marks with fields subject1, subject2, and method to calculate total.
+   Display all details using a Marks class object.
+   (Marks.java, Student.java, StudentDetails.java) using (Parameterize method with no return type)
+
+4. Employee and Salary: Create a class Employee with empId, empName. Inherit a class Salary that includes basicPay, hra, and da.
+   Calculate and print total salary.
+   (DisplayBill.java, Employee.java, Salary.java) using (default method with no return type) with Scanner class input from user
+
+5. Grand-Father and Father simple inheritance 
+
+
