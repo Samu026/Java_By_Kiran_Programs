@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <center><h2>ACADEMY REGISTRATION FORM</h2></center>
+
+    <center>
+        <img src="logo.png" height="50" width="200" alt="Academy Logo">
+    </center>
+    
+    <marquee scrollamount="9" loop="5" bgcolor="yellow">Welcome to our Academy...Registrations are closing soon!...Hurry Up!</marquee>
+    <hr><hr>
+
+    <center>
+        <form action="Login.html" method="post">
+            <label>Name </label>
+            <input type="text" placeholder="Enter your first name" name="name" >
+            <br><br>
+
+            <label>Surname </label>
+            <input type="text" placeholder="Enter your last name" name="surname">
+            <br><br>
+
+            <label>Phone Number </label>
+            <input type="tel" placeholder="Enter exist phone number" name="phno" required>
+            <br><br>
+
+            <label>Email Address</label>
+            <input type="email" placeholder="Enter valid email" name="email" required>
+            <br><br>
+
+            <label>Gender </label>
+            <input type="radio" id="Famale" name="gender" value="Female">
+            <label for="Female">Female</label>
+            
+            <input type="radio" id="Male" name="gender" value="Male">
+            <label for="Male">Male</label>
+            <br><br>
+
+            <label>Date of Birth </label>
+            <input type="date" name="dob" required>
+            <br><br>
+
+            <label>College Name </label>
+            <input type="text" placeholder="Enter your college name" name="clgname">
+            <br><br>
+
+            <label>Passing year, month </label>
+            <input type="month" name="passyear">
+            <br><br>
+
+            <label>Courses </label>
+        
+            <input type="checkbox" id="java" name="courses" value="java">
+            <label for="java">Java Full Stack</label>
+            
+            <input type="checkbox" id="python" name="courses" value="python">
+            <label for="python">Python Full Stack</label>
+            
+            <input type="checkbox" id="ml" name="courses" value="ml">
+            <label for="ml">Machine Learning</label>
+            <br><br>
+
+            <label>Branch Location </label>
+            <select required>
+                <option value="karvenagar" name="location">Karve Nagar </option>
+                <option value="chinchwad" name="location">Chinchwad</option>
+                <option value="deccan" name="location">Deccan</option>
+            </select>
+            <br><br>
+
+            <label>Upload ID Proof </label>
+            <input type="file" accept=".pdf" id="idproof  name="idproof" required>
+            <br><br>
+            
+            <label>Password</label>
+            <input type="password" id="password" placeholder="Enter password" minlength="5" maxlength="10" name="password"required>
+            <br><br>
+
+            <label>Enter any Query</label><br>
+            <textarea id="query" name="query" rows="2" cols="50" placeholder="Enter Your Query Here..."></textarea>
+            <br><br>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </center>
+</body>
+</html>
