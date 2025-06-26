@@ -22,7 +22,7 @@ Basic form design using HTML.
 
 ## 📁 Files Included
 
-- `index.html` — Main registration form
+- `Registration.html` — Main registration form
 - `logo.png` — Logo image (make sure this is in the same directory)
 - `Login.html` — Dummy target page for form submission (you can create this for navigation)
 
