@@ -3,57 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Registration Form</title>
 </head>
 <body>
-    <center><h2>ACADEMY REGISTRATION FORM</h2></center>
 
-    <center>
-        <img src="logo.png" height="50" width="200" alt="Academy Logo">
-    </center>
+    <h2>ACADEMY REGISTRATION FORM</h2>
+    <img src="logo.png" height="50" width="200" alt="Academy Logo">
     
     <marquee scrollamount="9" loop="5" bgcolor="yellow">Welcome to our Academy...Registrations are closing soon!...Hurry Up!</marquee>
     <hr><hr>
 
-    <center>
         <form action="Login.html" method="post">
-            <label>Name </label>
+            <label>Name</label><br>
             <input type="text" placeholder="Enter your first name" name="name" >
             <br><br>
 
-            <label>Surname </label>
+            <label>Surname</label><br>
             <input type="text" placeholder="Enter your last name" name="surname">
             <br><br>
 
-            <label>Phone Number </label>
+            <label>Phone Number</label><br>
             <input type="tel" placeholder="Enter exist phone number" name="phno" required>
             <br><br>
 
-            <label>Email Address</label>
+            <label>Email Address</label><br>
             <input type="email" placeholder="Enter valid email" name="email" required>
             <br><br>
 
-            <label>Gender </label>
+            <label>Gender </label><br>
             <input type="radio" id="Famale" name="gender" value="Female">
             <label for="Female">Female</label>
             
             <input type="radio" id="Male" name="gender" value="Male">
-            <label for="Male">Male</label>
+            <label for="Male">Male</label><br>
             <br><br>
 
-            <label>Date of Birth </label>
+            <label>Date of Birth </label><br>
             <input type="date" name="dob" required>
             <br><br>
 
-            <label>College Name </label>
+            <label>College Name </label><br>
             <input type="text" placeholder="Enter your college name" name="clgname">
             <br><br>
 
-            <label>Passing year, month </label>
+            <label>Passing year, month </label><br>
             <input type="month" name="passyear">
-            <br><br>
+            <br>
 
-            <label>Courses </label>
+            <label>Courses </label><br>
         
             <input type="checkbox" id="java" name="courses" value="java">
             <label for="java">Java Full Stack</label>
@@ -65,7 +63,7 @@
             <label for="ml">Machine Learning</label>
             <br><br>
 
-            <label>Branch Location </label>
+            <label>Branch Location </label><br>
             <select required>
                 <option value="karvenagar" name="location">Karve Nagar </option>
                 <option value="chinchwad" name="location">Chinchwad</option>
@@ -73,21 +71,21 @@
             </select>
             <br><br>
 
-            <label>Upload ID Proof </label>
+            <label>Upload ID Proof </label><br>
             <input type="file" accept=".pdf" id="idproof  name="idproof" required>
             <br><br>
             
-            <label>Password</label>
+            <label>Password</label><br>
             <input type="password" id="password" placeholder="Enter password" minlength="5" maxlength="10" name="password"required>
             <br><br>
 
-            <label>Enter any Query</label><br>
+            <label>Enter any Query</label><br><br>
             <textarea id="query" name="query" rows="2" cols="50" placeholder="Enter Your Query Here..."></textarea>
             <br><br>
 
             <input type="submit" value="Submit">
 
         </form>
-    </center>
+   
 </body>
 </html>
